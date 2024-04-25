@@ -6,7 +6,7 @@
 /*   By: anouri <anouri@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 08:59:53 by anouri            #+#    #+#             */
-/*   Updated: 2024/04/25 11:13:43 by anouri           ###   ########.fr       */
+/*   Updated: 2024/04/25 11:27:51 by anouri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ public:
     {
         size = src.size;
         this->array = new T[size];
-        for (int i = 0; i < size; i++)
+        for (unsigned int i = 0; i < size; i++)
         {
             this->array[i] = src.array[i];
         }
